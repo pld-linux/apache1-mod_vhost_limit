@@ -1,7 +1,7 @@
 %define		mod_name	vhost_limit
 %define 	apxs		/usr/sbin/apxs
 Summary:	Apache module: vhost_limit limits
-Summary(pl):	Modu³ do apache: limity pasma
+Summary(pl):	Modu³ do apache: limity pasma dla serwerów wirtualnych
 Name:		apache-mod_%{mod_name}
 Version:	0.4
 Release:	1
@@ -22,7 +22,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define         _sysconfdir     /etc/httpd
 
 %description
-This is the module for Apache Web Server to restrict the number of simultaneous connections per a virtual host.
+This is the module for Apache Web Server to restrict the number of
+simultaneous connections per a virtual host.
+
+%description -l pl
+Ten pakiet zawiera modu³ dla serwera WWW Apache s³u¿±cy do
+ograniczania liczby jednoczesnych po³±czeñ dla serwerów wirtualnych.
 
 %prep
 %setup -q -n mod_%{mod_name}-%{version}
