@@ -8,6 +8,7 @@ Release:	1
 License:	Apache
 Group:		Networking/Daemons
 Source0:	http://www.nowhere-land.org/programs/mod_vhost_limit/mod_%{mod_name}-%{version}.tar.gz
+# Source0-md5:	bae36a7174e184804b91356ef67d0b5d
 URL:		http://www.nowhere-land.org/programs/mod_vhost_limit/
 BuildRequires:	apache(EAPI)-devel
 Requires(post,preun):	%{apxs}
