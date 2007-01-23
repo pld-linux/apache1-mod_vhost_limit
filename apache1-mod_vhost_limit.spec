@@ -4,7 +4,7 @@ Summary:	Apache module: vhost_limit limits
 Summary(pl):	Modu³ do apache: limity pasma dla serwerów wirtualnych
 Name:		apache1-mod_%{mod_name}
 Version:	0.4
-Release:	2
+Release:	3
 License:	Apache
 Group:		Networking/Daemons
 Source0:	http://www.nowhere-land.org/programs/mod_vhost_limit/mod_%{mod_name}-%{version}.tar.gz
@@ -13,7 +13,7 @@ URL:		http://www.nowhere-land.org/programs/mod_vhost_limit/
 BuildRequires:	apache1-devel >= 1.3.33-2
 BuildRequires:	rpmbuild(macros) >= 1.268
 Requires(triggerpostun):	%{apxs}
-Requires:	apache1 >= 1.3.33-2
+Requires:	apache1(EAPI)
 Requires:	crondaemon
 Requires:	procps
 Obsoletes:	apache-mod_vhost_limit <= 0.4
