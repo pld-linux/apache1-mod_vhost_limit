@@ -1,7 +1,7 @@
 %define		mod_name	vhost_limit
 %define 	apxs		/usr/sbin/apxs1
 Summary:	Apache module: vhost_limit limits
-Summary(pl.UTF-8):   Moduł do apache: limity pasma dla serwerów wirtualnych
+Summary(pl.UTF-8):	Moduł do apache: limity pasma dla serwerów wirtualnych
 Name:		apache1-mod_%{mod_name}
 Version:	0.4
 Release:	3
