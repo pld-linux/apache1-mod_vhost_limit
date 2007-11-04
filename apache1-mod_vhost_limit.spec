@@ -10,7 +10,7 @@ Group:		Networking/Daemons
 Source0:	http://www.nowhere-land.org/programs/mod_vhost_limit/mod_%{mod_name}-%{version}.tar.gz
 # Source0-md5:	bae36a7174e184804b91356ef67d0b5d
 URL:		http://www.nowhere-land.org/programs/mod_vhost_limit/
-BuildRequires:	apache1-devel >= 1.3.33-2
+BuildRequires:	apache1-devel >= 1.3.39
 BuildRequires:	rpmbuild(macros) >= 1.268
 Requires(triggerpostun):	%{apxs}
 Requires:	apache1(EAPI)
